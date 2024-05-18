@@ -1,0 +1,18 @@
+<svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect x="1" y="1" width="40" height="40" fill="#333333" />
+    <!-- Gradient Overlay -->
+    <rect x="1" y="1" width="40" height="40" fill="url(#gold_gradient)" opacity="0.5" />
+    <!-- Chip Body -->
+    <rect x="14" y="14" width="14" height="14" fill="none" stroke="#FFDB6E" stroke-width="1.5" />
+    <!-- Legs -->
+    <path d="M14 21h-4M28 21h4M21 14v-4M21 28v4" stroke="#FFDB6E" stroke-width="1.5"/>
+    <!-- Core -->
+    <rect x="18" y="18" width="6" height="6" fill="#FFDB6E"/>
+    <defs>
+        <linearGradient id="gold_gradient" x1="1" y1="1" x2="41" y2="41" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDB6E" stop-opacity="0.1"/>
+            <stop offset="1" stop-color="#FFDB6E" stop-opacity="0.5"/>
+        </linearGradient>
+    </defs>
+</svg>
